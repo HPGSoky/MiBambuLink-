@@ -21,11 +21,11 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 print("Starting...")
 
 # Basics
-APP_ID = config("APP_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
+APP_ID = config("16376800", default=None, cast=int)
+API_HASH = config("506da3fde32cd6487709c5e2fd67cd43", default=None)
 SESSION = config("SESSION")
-FROM_ = config("FROM_CHANNEL")
-TO_ = config("TO_CHANNEL")
+FROM_ = config("1748575448")
+TO_ = config("1657798017")
 
 FROM = [int(i) for i in FROM_.split()]
 TO = [int(i) for i in TO_.split()]
